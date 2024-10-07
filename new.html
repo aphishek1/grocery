@@ -1,0 +1,498 @@
+<!doctype html>
+<head>
+<title>Menu</title>
+
+<meta names="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<style>
+
+
+
+
+
+
+
+header
+{
+width:98%;
+height:300px;
+border:1px black solid;
+}
+
+nav{
+width:96%;
+//border:1px black solid;
+padding:10px;
+margin:auto;
+margin-top:5px;
+}
+
+
+
+
+#container
+{
+border:1px black solid;
+
+
+}
+
+
+#icon{
+cursor:pointer;
+//display:none;
+width:10%;
+}
+
+
+#menu
+{
+}
+
+#menu ol li
+{
+list-style:none;
+//display:inline;
+background:#DEFAFF;
+padding:20px;
+tansititon:0.50s;
+margin-left:10px;
+width:30%;
+display:none;
+margin-left:-40px;
+margin-top:-20px;
+}
+
+
+#menu ol li:hover
+{
+background:#a8daf1;
+width:30%;
+}
+
+#menu ol li:hover a:link
+{
+color:black;
+background:nn;
+transform:scale(1.50); rotation(180deg);
+border-radius:15px;
+}
+
+
+
+#menu ol li a:link
+{
+color:black;
+}
+
+#menu ol li a:visted
+{
+color:white;
+}
+
+#menu ol li a:hover
+{ 
+color:black;
+}
+
+#container:hover #menu ol li
+{
+display:block;
+}
+
+#divpic
+{
+display:flex;
+justify-content:center;
+justify-content:start;
+align-items:center;
+flex-wrap:wrap;
+padding:50px;
+}
+
+.picstyle
+{
+width:350px;
+height:200px;
+border:2px solid gray;
+border-radius:13px;
+box-shadow:4px 7px 7px 0px gray;
+cursor:pointer;
+margin:10px;
+transition:400ms;
+}
+
+.picstyle:hover{
+transform:scale(1.10);
+filter:grayscale(1);
+}
+
+
+*{
+box-sizing:border-box;
+}
+ol li{display:inline:padding:20px}
+
+@keyframes ani1
+{
+from{margin-left:0px;}
+to{margin-left:-690%}
+}
+
+
+#mask
+{
+background:black;
+width:100%;
+height:100px;
+box-shaddow:10px 10px 10px gray;
+overflow:hidden;
+}
+
+#news
+{
+color:white;
+width:800%;
+height:100px;
+font-family:arial black;
+font-size:50px;
+padding:10px;
+transition:2s;
+z-index:-1;
+animation:ani1 40s linear infinite;
+}
+
+
+#navbar
+{
+background:tal;
+cursor:pointer;
+}
+
+#navbar ol
+{
+
+margin:auto;
+width:40%;
+margin-top:50px;
+text-align:centre;
+}
+
+#navbar ol li
+{
+list-style:none;
+
+padding:30px;
+background:#32a7eb;
+margin-left:0px;
+transition:1s;
+box-shadow: 10px 5px 10px gray;
+
+}
+
+
+#navbar ol li:hover
+{
+transform:scale(1.20); rotation(180deg);
+border-radius:15px;
+background:#F06417;
+
+}
+
+/*extra small devices(phones,600px and down)*/
+
+@media only screen and (max-width:600px)
+{
+body{background:gree}
+
+
+}
+
+
+/*small devices (portrait tab andlarge phones.600px and up)*/
+
+@media only screen and (min-width:600px)
+{
+
+body{background:yello}
+#container{
+width:100%;
+height:300px;
+top:100%
+}
+
+
+}
+}
+
+/* medium devices(landscapes tab ,768px and up)*/
+
+@media only screen and (min-width:768px)
+{
+body{background:cya}
+@keyframes runbanner
+{
+10%{left:0%;}
+
+20%{left:-20%;}
+30%{left:-20%;}
+
+40%{left:-40%;}
+50%{left:-40%;}
+
+60%{left:-60%;}
+70%{left:-60%;}
+
+80%{left:-80%;}
+90%{left:-80%;}
+}
+
+
+body{
+//overflow:hidden;
+overflow-x:hidden;
+}
+
+#banner
+{
+width:500%;
+height:600px;
+
+}
+
+.pic
+{
+box-shadow:10px 10px 10px gray;
+width:20%;
+height:900px;
+position:relative;
+margin-top:-10px;
+left:10%;
+margin-left:-10px;
+animation:runbanner 18s infinite;
+}
+
+}
+
+/* large devices(laptop/destop,992px and up)*/
+
+@media only screen and (min-width:992px)
+{
+body{background:ornag;}
+@keyframes runbanner
+{
+10%{left:0%;}
+
+20%{left:-20%;}
+30%{left:-20%;}
+
+40%{left:-40%;}
+50%{left:-40%;}
+
+60%{left:-60%;}
+70%{left:-60%;}
+
+80%{left:-80%;}
+90%{left:-80%;}
+}
+
+
+body{
+//overflow:hidden;
+overflow-x:hidden;
+}
+
+#banner
+{
+width:500%;
+height:600px;
+
+}
+
+.pic
+{
+box-shadow:10px 10px 10px gray;
+width:20%;
+height:900px;
+position:relative;
+margin-top:-10px;
+left:10%;
+margin-left:-10px;
+animation:runbanner 18s infinite;
+}
+
+
+}
+
+/*extra large devices(large laptop and desktop,1200px and up)*/
+
+@media only screen and (min-width:1200px)
+{
+body{background:brow}
+@keyframes runbanner
+{
+10%{left:0%;}
+
+20%{left:-20%;}
+30%{left:-20%;}
+
+40%{left:-40%;}
+50%{left:-40%;}
+
+60%{left:-60%;}
+70%{left:-60%;}
+
+80%{left:-80%;}
+90%{left:-80%;}
+}
+
+
+body{
+//overflow:hidden;
+overflow-x:hidden;
+}
+
+#banner
+{
+width:500%;
+height:600px;
+
+}
+
+.pic
+{
+box-shadow:10px 10px 10px gray;
+width:20%;
+height:900px;
+position:relative;
+margin-top:-10px;
+left:10%;
+margin-left:-10px;
+animation:runbanner 18s infinite;
+}
+
+}
+
+
+
+#div2
+{
+//display:inline;
+width:100%;
+margin:auto;
+}
+
+
+
+@keyframes fadout
+{
+from{opacity:0;transform:scale(1.5);}
+to{opacity:0.99;}
+}
+
+
+
+
+p{
+transition:2s;
+animation:fadout 2s ease-in-out;
+}
+
+#myheading
+{color:#fbd10d;
+display:block;
+font-size:100px;
+text-align:center;
+width:260px;
+text-shadow:5px 5px 5px black;
+animation:fadout 1s ease-in infinite alternate;
+}
+
+
+
+
+</style>
+
+
+
+
+<body>
+
+<div id="div2">
+
+
+   <div style="width:100%;margin:auto ">
+
+   <img src="img/39.jpg" width="100%" alt="3" >
+   </div>
+
+
+     <nav>
+      <div id="mask">
+      <div id="news">For the purpose of this Policy, the term FARMER will refer to a person actively engaged in the economic and/or livelihood activity of growing crops and producing other primary agricultural commodities and will include all agricultural operational holders, cultivators, agricultural labourers, sharecroppers, tenants, poultry and livestock rearers, fishers, beekeepers, gardeners, pastoralists, non-corporate planters and planting labourers, as well as persons engaged in various farmingrelated occupations such as sericulture, vermiculture, and agro-forestry. The term will also include tribal families / persons engaged in shifting cultivation and in the collection, use and sale of timber and non-timber forest produce.
+    </div>
+    </div>
+
+
+    </div>
+    </nav>
+
+
+<h1 id="myheading">Daily Product Offers </h1>
+
+
+    <div id ="divpic">
+   <img src="img/25.jpeg"   alt="3" class="picstyle" >
+   <img src="img/24.jpeg"   alt="3" class="picstyle" >
+   <img src="img/21.jpeg"  alt="3" class="picstyle" >
+   <img src="img/4.jpeg"  alt="3" class="picstyle" >
+   <img src="img/5.jpeg"  alt="3" class="picstyle" >
+   <img src="img/6.jpeg"  alt="3" class="picstyle" >
+    <img src="img/7.jpeg"  alt="3" class="picstyle" >
+    <img src="img/16.jpeg"  alt="3" class="picstyle" >
+    <img src="img/18.jpeg"  alt="3" class="picstyle" >
+    <img src="img/27.jpeg" alt="3" class="picstyle" >
+    <img src="img/28.jpg" alt="3" class="picstyle" >
+    <img src="img/20.jpeg"  alt="3" class="picstyle" >
+    <img src="img/23.jpg"  alt="3" class="picstyle" >
+    </div>
+
+
+
+    <div id="navbar">
+    <h1 style="text-align:center;font-family:verdana,Arial black;font-    size:30px;
+    background:#ffffff;color:Black;box-
+    shadow:10px 10px 10px gray">
+    <ol>
+
+    <li><a href="added.html">Delivery in 10 minutes</a></li>
+
+    <h1 style="text-align:center;background:#;color:white;font-    family:Arial black;font-size:60px;
+    box-shadow:10px 10px 10px gray"></h1>
+
+    </ol>
+
+    </div>
+
+</div>
+<body>
+
+
+
+
+<div style="width:100%;margin:auto ">
+
+   <img src="img/opt.png" width="100%" alt="3" >
+   </div>
+
+
+
+</body>
+
+
+</body>
+</html>
